@@ -1,0 +1,42 @@
+/*样式重置*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+}
+body{
+    font-family: "PingFang SC","Helvetica Neue","Hiragino Sans GB","Segoe UI","Microsoft YaHei","微软雅黑",sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+/*公共样式*/
+
+.s_left{
+    float: left;
+}
+.s_right{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}

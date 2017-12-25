@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1,
+    user-scalable=no,
+    minimum-scale=1,
+    maximum-scale=1">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style12.css"> 
+</head>
+<body>
+    <div class="register_layout">
+        <div class="register_logo"> <span><img src="img/logo1.png" alt=""></span>
+            <p>全球顶级奢侈品新品卖店</p>
+        </div>
+        <div class="register_mian ma">
+            <input type="text" placeholder="请输入验证码" > 
+            <div>
+                <span id="a">
+
+                </span>
+               <span class="ad">s</span>
+           </div>
+            <input type="text" placeholder="请输入邀请码（非必填）">
+            <button><a href="register.html">注册</a></button>
+        </div>
+        <div class="register_footer">
+           
+        </div>
+    </div>
+
+   
+   
+    <script src="img/fontSizeSet.js"></script>
+     <script>
+        var a = document.getElementById("a");
+  
+        var p = 60;
+        a.innerText = p
+        
+        function myTime() {
+            if (p > 0) {
+                p--
+            }
+             a.innerText = p
+             
+        }
+       
+        setInterval(myTime,1000)
+    </script>
+</body>
+</html>

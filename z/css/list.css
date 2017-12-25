@@ -1,0 +1,40 @@
+.list_header{
+    width: 100%;
+    padding: 0.1rem;
+    border-bottom: 1px solid #ccc;
+}
+.list_header img{
+    float: left;
+}
+.list_header h2{
+    text-align: center;
+}
+.list_main{
+    width: 50%;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    float: left;
+}
+.list_main span{
+    padding: 0.05rem 0.3rem;
+    border: 1px solid #ccc;
+}
+.list_main p{
+    margin: 0.03rem;
+}
+.list_main .black{
+    color: #000;
+    margin: 0.1rem 0 0.03rem 0;
+}
+.list_main img{
+    width: 100%;
+}
+.list_main a{
+    color: #000;
+    font-weight: bold;
+}
+.list_footer{
+    text-align: center;
+    margin: 1rem 0 0.3rem 0;
+}
